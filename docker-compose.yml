@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  angular-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+
+  angular-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "4200:4200"
+    volumes:
+      - .:/app
+    command: npm start -- --host=0.0.0.0

@@ -15,4 +15,5 @@ export class TaskComponent {
   onCompleteTask() {
     this.complete.emit(this.task.id);
   }
+
 }

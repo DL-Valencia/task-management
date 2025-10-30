@@ -1,5 +1,4 @@
 import {Component, Input, Output, EventEmitter} from '@angular/core';
-import { DUMMY_USERS} from "../dummy-users";
 import { type User} from "./user.model";
 
 

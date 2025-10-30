@@ -1,8 +1,5 @@
 import {NgModule} from "@angular/core";
-import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {FormsModule} from "@angular/forms";
-import {DatePipe} from "@angular/common";
-
 
 import {AppComponent} from "./app.component";
 import {HeaderComponent} from "./header/header.component";
